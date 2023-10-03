@@ -1,0 +1,101 @@
+.check{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background: ghostwhite;
+    padding: 1rem;
+}
+.check .icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+.check .produt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.check i{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 50px;
+}
+.check .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        width: 300px;
+        background: content-box;
+        outline: none;
+}
+.check .card img{
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+    max-width: 100%;
+}
+.check .card h1{
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+}
+.check .card P{
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+}
+.check .AddSubQuantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.check .AddSubQuantity .add{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    right: 30px;
+    outline: auto;
+    cursor: pointer;
+
+}
+.check .AddSubQuantity .sub{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    left: 30px;
+    outline: auto;
+    cursor: pointer;
+}
+.check .remove{
+background: black;
+color: #ffff;
+border-radius: 40px;
+font-family: var(--font-family);
+font-size: 18px;
+line-height: 30px;
+border: none;
+padding: 0.5rem 1rem;
+outline: none;
+min-width: 150px;
+cursor: pointer;
+}
+
